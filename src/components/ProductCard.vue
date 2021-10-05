@@ -1,15 +1,9 @@
 <template>
-    <div>
-    <h1>Product Card</h1>
-    </div>
+  <div class="text-xl">Product Card</div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
