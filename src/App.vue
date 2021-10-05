@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <div>
+    <div class="static">
       <Header :nav="links" />
     </div>
   </div>
