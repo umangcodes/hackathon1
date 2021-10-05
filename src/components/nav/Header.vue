@@ -1,20 +1,22 @@
 <template>
-  <div>
+  <div class="flex p-5 justify-between">
     <!-- Site logo -->
     <div>
       <h1>Logo</h1>
     </div>
     <!-- links -->
-    <div>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/catalogue">Catalogue</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="flex">
+      <div v-for="link in nav" :key="link.id" class="px-5">
+        <router-link :to="link.url">{{ link.title }}</router-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: ["nav"],
+};
 </script>
 
 <style></style>
