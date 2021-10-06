@@ -1,5 +1,6 @@
 <template>
-  <div :class="data.disable ? 'opacity-30' : ''">
+  <!-- <div :class="data.disable ? 'opacity-0'  : ''"> -->
+  <div :class="data.disable ? 'opacity-30 hover:opacity-80' : ''">
     <div>
       <span class="text-xl font-bold">Serial #{{ data.id }}</span>
     </div>
@@ -11,8 +12,9 @@
       <br />
       <span class="font-thin">Power</span>
     </div>
-    <div class="opacity-0 hover:opacity-100" v-if="data.disable">Locked</div>
+    <span v-if="data.disable">Locked</span>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
