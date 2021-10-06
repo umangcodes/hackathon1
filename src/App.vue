@@ -5,9 +5,11 @@
     </div>
   </div>
   <router-view />
+  <Footer :nav="links" />
 </template>
 <script>
 import Header from "@/components/nav/Header.vue";
+import Footer from "@/components/nav/Footer.vue";
 export default {
   data() {
     return {
@@ -20,6 +22,7 @@ export default {
   },
   components: {
     Header,
+    Footer,
   },
 };
 </script>
