@@ -70,6 +70,66 @@ export default {
           id: 9,
           disable: true,
         },
+        {
+          img: "xyz",
+          id: 8,
+          disable: true,
+        },
+        {
+          img: "asdf",
+          id: 9,
+          disable: true,
+        },
+        {
+          img: "xyz",
+          id: 8,
+          disable: true,
+        },
+        {
+          img: "asdf",
+          id: 9,
+          disable: true,
+        },
+        {
+          img: "xyz",
+          id: 8,
+          disable: true,
+        },
+        {
+          img: "asdf",
+          id: 9,
+          disable: true,
+        },
+        {
+          img: "xyz",
+          id: 8,
+          disable: true,
+        },
+        {
+          img: "asdf",
+          id: 9,
+          disable: true,
+        },
+        {
+          img: "xyz",
+          id: 8,
+          disable: true,
+        },
+        {
+          img: "asdf",
+          id: 9,
+          disable: true,
+        },
+        {
+          img: "xyz",
+          id: 8,
+          disable: true,
+        },
+        {
+          img: "asdf",
+          id: 9,
+          disable: true,
+        },
       ],
     };
   },
@@ -79,7 +139,7 @@ export default {
   methods: {
     buttonClick() {
       console.log("button pressed");
-      this.$router.push("/");
+      // this.$router.push("/");
     },
   },
 };
