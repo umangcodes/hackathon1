@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-5 justify-between">
+  <div class="flex p-5 bg-gray-100 justify-between">
     <!-- Site logo -->
     <div>
       <h1>Logo</h1>
